@@ -62,7 +62,7 @@ Because the native XY resolution is finer than necessary for detecting c-Fos+ ne
 
 **Illustration of structure diversity:**
 
-![Diversity of structures observed in raw images](docs/images/structure_existe.PNG)
+![Diversity of structures observed in raw images](docs/images/structure_existe.png)
 
 _Figure 1 — Diversity of structures observed in raw 3D images. Neurons, blood vessels, and artifacts can all appear as bright fluorescent structures, making automated detection challenging._
 
