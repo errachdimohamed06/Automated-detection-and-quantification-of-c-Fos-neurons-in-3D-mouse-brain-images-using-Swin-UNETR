@@ -1,0 +1,31 @@
+# config/params.yaml
+
+data:
+  raw_images: "./data/raw/images/"
+  raw_masks: "./data/raw/masks/"
+  processed_images: "./data/processed/images/"
+  processed_masks: "./data/processed/masks/"
+  patches_dir: "./data/patches/"
+
+dimensions:
+  patch_size: [96, 96, 96]
+  target_spacing: [1.0, 1.0, 1.0]
+
+normalization:
+  percentiles: [0.5, 99.5]
+  clip_range: [0, 1]
+
+patching:
+  stride: [64, 64, 64]  # overlap = patch_size - stride = 32
+  overlap: 32            # automatiquement calculé
+
+split:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+training:
+  batch_size: 2
+  num_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.00001

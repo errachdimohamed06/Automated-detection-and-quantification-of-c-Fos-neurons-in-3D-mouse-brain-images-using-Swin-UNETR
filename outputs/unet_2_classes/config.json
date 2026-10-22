@@ -1,0 +1,20 @@
+{
+  "experiment": "UNet3D_2class_slices40_dice",
+  "model": "UNet3D_MONAI",
+  "num_classes": 2,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "num_epochs": 100,
+  "total_params": 19221797,
+  "loss_function": "Dice Loss",
+  "data_filtering": "slices_40",
+  "data_conversion": "3classes_to_2classes",
+  "total_patches": 6182,
+  "best_dice": 0.49399090577394533,
+  "best_iou": 0.49019155288353944,
+  "best_f1": 0.4951322086346455,
+  "best_accuracy": 0.9792222609886756,
+  "total_time_minutes": 961.946325202783,
+  "time_per_epoch_minutes": 45.80696786679919,
+  "device": "cuda"
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "SwinUNETR_3class_slices40_focal_resume",
+  "model": "SwinUNETR",
+  "num_classes": 3,
+  "batch_size": 4,
+  "learning_rate": 0.001,
+  "num_epochs": 100,
+  "total_params": 62186757,
+  "loss_function": "Focal Loss",
+  "gamma": 2.0,
+  "data_filtering": "slices_40",
+  "resume_from_best": "/mnt/x/segmentation_cfos/outputs/swin_3class_slices40_focal/checkpoints/best_model.pth",
+  "total_patches": 6182,
+  "best_dice": 0.6307844079309894,
+  "best_f1": NaN,
+  "total_time_minutes": 2918.243486571312,
+  "time_per_epoch_minutes": 76.79588122556085,
+  "device": "cuda"
+}

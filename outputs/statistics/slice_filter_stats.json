@@ -1,0 +1,11 @@
+{
+  "total_patches_before": 15021,
+  "patches_kept": 6182,
+  "patches_removed": 8839,
+  "max_empty_slices": 40,
+  "empty_slices_mean": 41.27201917315758,
+  "empty_slices_median": 46.0,
+  "keep_percentage": 41.15571533186872,
+  "batch_size": 2000,
+  "test_mode": false
+}
