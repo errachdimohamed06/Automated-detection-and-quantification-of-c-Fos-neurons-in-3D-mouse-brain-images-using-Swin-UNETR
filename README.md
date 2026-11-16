@@ -17,7 +17,7 @@
 
 ## Overview
 
-This project provides a complete, reproducible pipeline for **automatically detecting and quantifying c-Fos+ neurons in 3D mouse brain images**. It uses a **3-class Swin UNETR** segmentation model to distinguish between background, neurons, and undesirable structures (blood vessels and artifacts), followed by a **SimpleITK-based post-processing** step to label and count individual neurons.
+This project provides a complete, reproducible pipeline for **automatically detecting and quantifying c-Fos+ neurons in 3D mouse brain images**. It uses a ** Swin UNETR** segmentation model to distinguish between background, neurons, and undesirable structures (blood vessels and artifacts), followed by a **SimpleITK-based post-processing** step to label and count individual neurons.
 
 The pipeline is designed to handle large volumetric microscopy data and to produce quantitative measurements that are reproducible and operator-independent.
 
